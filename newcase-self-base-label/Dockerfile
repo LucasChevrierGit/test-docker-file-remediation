@@ -17,7 +17,7 @@ FROM scratch
 COPY --from=build / /
 
 LABEL org.opencontainers.image.title="self-base-label-test" \
-      org.opencontainers.image.version="1.0.1" \
+      org.opencontainers.image.version="1.0.2" \
       org.opencontainers.image.description="Base image that labels itself as its own base image" \
       org.opencontainers.image.source="https://github.com/LucasChevrierGit/test-docker-file-remediation" \
       com.datadoghq.image.source_path="newcase-self-base-label/Dockerfile" \
